@@ -1,9 +1,6 @@
 postgres:12.19-alpine
 postgres:17-alpine
-redis:alpine
+redis:7-alpine
 golang:1.22.4-alpine
 golang:1.23.2-alpine
 alpine:latest
-
-
---platform=darwin/arm64 postgres:12.19-alpine
