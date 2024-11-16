@@ -4,6 +4,7 @@ postgres:17-alpine
 redis:7-alpine
 golang:1.22.4-alpine
 golang:1.23.2-alpine
+golang:1.23.3-alpine
 alpine:latest
 
 # mac arm arch
@@ -13,4 +14,5 @@ alpine:latest
 --platform=linux/aarch64 redis:7-alpine
 --platform=linux/aarch64 golang:1.22.4-alpine
 --platform=linux/aarch64 golang:1.23.2-alpine
+--platform=linux/aarch64 golang:1.23.3-alpine
 --platform=linux/aarch64 alpine:latest
