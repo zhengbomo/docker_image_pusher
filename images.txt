@@ -5,6 +5,7 @@ redis:7-alpine
 golang:1.22.4-alpine
 golang:1.23.2-alpine
 golang:1.23.3-alpine
+golang:1.24.1-alpine
 alpine:latest
 
 # mac arm arch
@@ -15,4 +16,5 @@ alpine:latest
 --platform=linux/aarch64 golang:1.22.4-alpine
 --platform=linux/aarch64 golang:1.23.2-alpine
 --platform=linux/aarch64 golang:1.23.3-alpine
+--platform=linux/aarch64 golang:1.24.1-alpine
 --platform=linux/aarch64 alpine:latest
