@@ -4,6 +4,7 @@ postgres:18-alpine
 redis:7-alpine
 golang:1.23.3-alpine
 golang:1.24.1-alpine
+golang:1.25.7-alpine
 alpine:latest
 quay.io/soketi/soketi:1.6.1-16-alpine
 
@@ -14,5 +15,6 @@ quay.io/soketi/soketi:1.6.1-16-alpine
 --platform=linux/aarch64 redis:7-alpine
 --platform=linux/aarch64 golang:1.23.3-alpine
 --platform=linux/aarch64 golang:1.24.1-alpine
+--platform=linux/aarch64 golang:1.25.7-alpine
 --platform=linux/aarch64 alpine:latest
 --platform=linux/aarch64 quay.io/soketi/soketi:1.6.1-16-alpine
